@@ -9,6 +9,9 @@ body{
 h1{
     font-size: 45px;
 }
+h2{
+    font-size: 35px;
+}
 .flexible{
     display: flex;
     margin-bottom: 150px;
@@ -42,9 +45,29 @@ p{
     opacity: 80%;
 }
 .head-experence{
-    margin: 0 5%;
+    margin: 2% 5%;
 }
 .developer{
-    margin: 30px;
-    background-color: tomato;
+    width: 40%;
+    margin: 0 5%;
+    padding: 0 20px;
+    box-shadow: 5px 7px 40px grey;
+}
+.experence{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+#full-stack{
+    border-left: 6px solid;
+    border-image: linear-gradient(red, blue) ;
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 6px solid;
+    border-image: linear-gradient(rgb(245, 56, 22), rgb(0, 132, 255)) ;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
